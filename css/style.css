@@ -1,0 +1,74 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Reset */
+
+/* Proprietà container principale */
+.container {
+  display: block;
+  width: 96%;
+  margin: 40px auto;
+}
+/* Fine Proprietà container principale */
+
+/* Proprietà header */
+header {
+height: 200px;
+width: 100%;
+background-color: yellow;
+}
+/* Fine Proprietà header */
+
+/* Proprietà colonna sinistra */
+.colonna1 {
+  margin: 20px 0;
+  background-color: rgb(204, 135, 218);
+  float: left;
+  width: 27%;
+  height: 500px;
+}
+/* Fine Proprietà colonna sinistra */
+
+/* Proprietà colonna centrale */
+.colonna2 {
+  margin: 20px 2%;
+  background-color: rgb(115, 6, 113);
+  float: left;
+  width: 42%;
+  height: 700px;
+}
+/* Fine Proprietà colonna centrale */
+
+/* Proprietà colonna superiore destra */
+.colonna3 {
+  margin: 20px 0;
+  background-color: rgb(204, 135, 218);
+  float: left;
+  width: 27%;
+  height: 300px;
+}
+/* Fine Proprietà colonna superiore destra */
+
+/* Proprietà colonna inferiore destra */
+.sottocolonna3 {
+  margin: 20px 0;
+  background-color: rgb(204, 135, 218);
+  float: left;
+  width: 27%;
+  height: 300px;
+}
+/* Fine Proprietà colonna inferiore destra */
+
+/* Footer */
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(164 210 225);
+}
+/* Fine Footer */
